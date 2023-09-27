@@ -1,0 +1,24 @@
+.StopWatch {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    width: 20%;
+    height: 50%;
+    background-color: aqua;
+    border-radius: 10%;
+}
+
+.StpoWatch__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20%
+}
+
+.StpoWatch__buttons > button {
+    border-radius: 10%;
+    background-color: orange;
+    border: 0;
+    box-shadow: 8px 4px 4px rgb(94, 90, 90);
+}
